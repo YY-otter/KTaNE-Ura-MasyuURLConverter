@@ -35,22 +35,12 @@ function DataToString(DEVIDED_INPUT_TEXT, INTERVAL) {
   for(const ELEM of DEVIDED_INPUT_TEXT) {
     for(const STR of ELEM) {
       switch(STR){
-        case "K":
-          if(ELEMENT_CHECKBOX_URA.checked){
+        case "W":
             temp += "1";
-          }
-          else {
-            temp += "2";
-          }
         break;
 
-        case "W":
-          if(ELEMENT_CHECKBOX_URA.checked){
+        case "K":
             temp += "2";
-          }
-          else {
-            temp += "1";
-          }
         break;
 
         default:
